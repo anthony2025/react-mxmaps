@@ -7,43 +7,10 @@ in-person interview so that we can discuss the solution together.
 In cases where this is not possible, we may discuss the solution together
 over a followup phone call.
 
-### What should you expect?
-
-We expect that the exercise will take anywhere from 2-5 hours to complete
-depending on your familiarity with React and with the GoogleMaps API.
-
-We understand that this is a significant amount of time so we really appreciate
-the effort you put into it. 
-
 ### How should you submit your code?
 
-Any way you want - email us a zip, a link to your personal repo, etc. 
+Any way you want - email us a zip, a link to your personal repo, etc.
 Please include a couple screenshots of the app.
-
-### What if I don't know React? 
-
-Feel free to submit a solution that meets the requirements, but without using React.
-React is an important part of our stack and you'll be using it every day so it's important
-that you're excited to learn it! If you don't know React and you're able to learn the basics
-in order to complete the exercise, we'll be impressed :)
-
-<a href="https://tylermcginnis.com/react-js-tutorial-pt-1-a-comprehensive-guide-to-building-apps-with-react-js-8ce321b125ba#.h5n3iisi4">Here's a great React tutorial</a>
-
-<a href="http://courses.reactjsprogram.com/courses/reactjsfundamentals">This one is also great.</a>
-
-### How do you start?
-
-Clone the repo on your computer
-
-Run
-```
-npm install
-npm start
-open http://localhost:3000
-```
-Read the intro and next steps on localhost:3000
-Edit `src/YourComponent.js`.  
-Your changes will appear without reloading the browser like in [this video](http://vimeo.com/100010922).
 
 ### What do we look for?
 
@@ -53,6 +20,28 @@ Your changes will appear without reloading the browser like in [this video](http
 	* We're not looking for full coverage (given time constraint) but just trying to get a feel for your testing skills.
 * **UX**:  Is the web interface understandable and pleasing to use? Is it responsive to various screen sizes, and fast to load?
 * **Technical choices**: do choices of libraries, databases, architecture etc. seem appropriate for the chosen application?
+
+		  <p>Below are some real-life <a href="https://en.wikipedia.org/wiki/User_story">user stories</a> that we face at Generation.</p>
+		  <p>We'd love to see how you use JS and React to address these user stories.</p>
+		  <p>Feel free to add libraries, create new components, or otherwise change the codebase. This app is yours!</p>
+		  <p>Implementing the user stories listed should take between 2-5 hours. If you're having trouble, don't be afraid to ask for help!</p>
+
+		  <strong>Student user stories:</strong>
+		  <ul>
+		    <li>As a student, I want to see a map of Mexico City</li>
+		    <li>As a student, I want to see a map that has all the stores represented as markers/pins on the map.</li>
+		    <li>As a student, I want to be able to click on a store and add it to a list of 'My Favorite Stores'</li>
+		  </ul>
+
+		  <p>Helpful tips:</p>
+		  <ul>
+		  	<li><i>Feel free to use our Google Maps API key: AIzaSyCVH8e45o3d-5qmykzdhGKd1-3xYua5D2A</i></li>
+		  	<li><i>The list of stores is located in the file store_directory.json </i></li>
+		  	<li><i>Focus on the user, not the technology. A simple implementation that impresses the user is better than a super technical solution that impresses other developers.</i></li>
+		  	<li><i>That said, code that is easy to follow is always appreciated :)</i></li>
+		  </ul>
+
+
 
 ### Source
 
