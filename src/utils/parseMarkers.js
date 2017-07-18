@@ -1,9 +1,10 @@
-const API_KEY = 'AIzaSyCg3F0GK2ATupossVbQAbcKHPTaMrf_Dik'
-const googleMapsClient = require('@google/maps').createClient({key: API_KEY})
 const fs = require('fs')
+const googleMapsClient = require('@google/maps').createClient({
+  key: process.env.REACT_APP_GAPI_KEY
+})
 
-const rawMarkers = 'rawMarkers.json'
-const parsedMarkers = 'parsedMarkers.json'
+const rawMarkers = '../data/raw_markers.json'
+const parsedMarkers = '../data/parsed_markers.json'
 
 function appendLineToFile(file, appendLineToFile) {
   fs.appendFile(file, line, err => {
@@ -60,7 +61,8 @@ function getMarkerWithCoords(marker) {
   })
 }
 
-fs.readFile(rawMarkers, 'utf8', (err, data) => {
-  let parsedData = JSON.parse(data)
-  parsedData.map(marker => getPlaceId(marker))
-})
+console.log(process.env.REACT_APP_GAPI_KEY)
+// fs.readFile(rawMarkers, 'utf8', (err, data) => {
+//   let parsedData = JSON.parse(data)
+//   parsedData.map(marker => getPlaceId(marker))
+// })

@@ -1,4 +1,3 @@
-/* global google */
 import React, {Component} from 'react'
 import styled from 'styled-components'
 import GoogleMapReact from 'google-map-react'

@@ -1,6 +1,6 @@
 This is a React coding challenge used to help evaluate candidates interested in joining the team at Generation Mexico. We are only given three user stories and a list of data.
 
-According to the rules any libraries and approaches can be used, but we should focus on the user experience over the technologies used. And make sure to include some documentation, comments and testing along the way.
+We should use React and Google Maps, and no Redux. Any other libraries and approaches can be used, but we should focus on the user experience over the technologies used. And make sure to include some documentation, comments and testing along the way.
 
 ## User Stories
 
