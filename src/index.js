@@ -1,11 +1,16 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 import App from './App'
-import injectResetCSS from './styling/reset.js'
 
-ReactDOM.render(<App />, document.getElementById('root'))
+import injectResetCSS from './styling/reset.js'
+import {ThemeProvider} from 'styled-components'
+import theme from './styling/theme'
+
+ReactDOM.render(
+  <ThemeProvider theme={theme}>
+    <App />
+  </ThemeProvider>,
+  document.getElementById('root')
+)
 
 injectResetCSS()
-
-const geocodingAPI = 'AIzaSyARskRITax7crxUP7M24dvyEgibHSyx5qo'
-const placesAPI = 'AIzaSyBtETiDJTufOEY8APseDuM6YHUWYoxLR_0'

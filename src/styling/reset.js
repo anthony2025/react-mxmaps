@@ -16,8 +16,6 @@ export default () => injectGlobal`
     padding: 0;
     font-size: 16px;
     line-height: 1;
-    background-color: #333;
-    color: white;
     font-family: Open Sans, Roboto, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica,
   Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   }
@@ -31,5 +29,6 @@ export default () => injectGlobal`
     border: 0;
     background: none;
     cursor: pointer;
+    transition: .3s;
   }
 `

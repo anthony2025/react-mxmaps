@@ -1,11 +1,11 @@
 import React from 'react'
 import styled from 'styled-components'
-import MapContainer from './MapContainer'
+import Map from './Map'
 
 export default function App(props) {
   return (
     <Wrapper>
-      <MapContainer />
+      <Map />
     </Wrapper>
   )
 }

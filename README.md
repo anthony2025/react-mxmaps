@@ -1,48 +1,40 @@
-Generation Take-Home Coding Challenge
-=================================
-This is a take-home coding challenge used to help evaluate candidates
-interested in joining the team at Generation.
-The goal is for candidates to complete the coding challenge before the
-in-person interview so that we can discuss the solution together.
-In cases where this is not possible, we may discuss the solution together
-over a followup phone call.
+This is a React coding challenge used to help evaluate candidates interested in joining the team at Generation Mexico. We are only given three user stories and a list of data.
 
-### How should you submit your code?
+According to the rules any libraries and approaches can be used, but we should focus on the user experience over the technologies used. And make sure to include some documentation, comments and testing along the way.
 
-Any way you want - email us a zip, a link to your personal repo, etc.
-Please include a couple screenshots of the app.
+## User Stories
 
-### What do we look for?
+* As a student, I want to see a map of Mexico City.
+* As a student, I want to see a map that has all the stores represented as markers/pins on the map.
+* As a student, I want to be able to click on a store and add it to a list of 'My Favorite Stores'
 
-* **Correctness**: does the application do what was asked (e.g., all the user stories are complete)? If there is anything missing, does the README explain why it is missing?
-* **Code quality**: is the code simple, easy to understand, and maintainable?  Are there any code smells or other red flags? Is the coding style consistent with the language's guidelines? Is it consistent throughout the codebase?
-* **Testing**: Are there some unit and some integration tests?
-	* We're not looking for full coverage (given time constraint) but just trying to get a feel for your testing skills.
-* **UX**:  Is the web interface understandable and pleasing to use? Is it responsive to various screen sizes, and fast to load?
-* **Technical choices**: do choices of libraries, databases, architecture etc. seem appropriate for the chosen application?
+## Problems to solve
 
-		  <p>Below are some real-life <a href="https://en.wikipedia.org/wiki/User_story">user stories</a> that we face at Generation.</p>
-		  <p>We'd love to see how you use JS and React to address these user stories.</p>
-		  <p>Feel free to add libraries, create new components, or otherwise change the codebase. This app is yours!</p>
-		  <p>Implementing the user stories listed should take between 2-5 hours. If you're having trouble, don't be afraid to ask for help!</p>
+### First: loading the Google Maps API
+Google hasn't made it easy to load the Maps API library. At least for web clients only a script tag is provided, with an optional callback. This gives us a couple of headaches:
 
-		  <strong>Student user stories:</strong>
-		  <ul>
-		    <li>As a student, I want to see a map of Mexico City</li>
-		    <li>As a student, I want to see a map that has all the stores represented as markers/pins on the map.</li>
-		    <li>As a student, I want to be able to click on a store and add it to a list of 'My Favorite Stores'</li>
-		  </ul>
+  * It forces us to expose a "google" global variable, a usual no-no for current codebases.
+  * The script can either be loaded in the head and block all js until it finishes loading, or it can be called after the body and use its optional callback to call a global function of our own, something that escapes the React flow.
 
-		  <p>Helpful tips:</p>
-		  <ul>
-		  	<li><i>Feel free to use our Google Maps API key: AIzaSyCVH8e45o3d-5qmykzdhGKd1-3xYua5D2A</i></li>
-		  	<li><i>The list of stores is located in the file store_directory.json </i></li>
-		  	<li><i>Focus on the user, not the technology. A simple implementation that impresses the user is better than a super technical solution that impresses other developers.</i></li>
-		  	<li><i>That said, code that is easy to follow is always appreciated :)</i></li>
-		  </ul>
+A variety of approaches can be followed to mitigate these issues, all of which are too involved for a demo application, but definitely necessary on production.
+[FullStackReact] approach was the most promising and documented one. For this demo I decided to load the script in the head, which again blocks all js and will affect initial loading of the app. DO NOT DO THIS IN PRODUCTION.
 
+### Second: rendering the map in React
+The Google Maps API renders the map on the DOM itself. Just like React, a reference to a 'root' div must be passed along for the API to do take control of.
+React runs into issues when another library manipulates the same sections of the DOM directly, which is also why you shouldn't use jQuery with React.
 
+An additional layer must be used to isolate the DOM manipulation of the maps API from React. I tried [google-maps-react] and [react-google-maps], but found both slightly outdated or missing critical documentation. Still either of these approaches would be much more powerful and is a better bet for the future if time is not a constraint.
 
-### Source
+To fulfill just the necessary functionality of this demo a more minimal library was used, [google-map-react]. This library provides you a component to render the map in, and accepts children components of any kind as Markers.
+This is exactly all we need for these user stories, but if we wanted more advanced features of the Google API one of the former two libraries would be a better choice.
 
-This boilerplate project is a mirror plus a few additions from gaearon's react boilerplate (https://github.com/gaearon/react-hot-boilerplate)
+### ~~Third: rendering the markers~~
+Noooot so fast, first we need their coordinates! welcome to the magical side adventure of geocoding.
+
+### Third: geocoding the markers
+ 
+
+[google-maps-react]: https://github.com/fullstackreact/google-maps-react
+[google-map-react]: https://github.com/istarkov/google-map-react
+[react-google-maps]: https://github.com/tomchentw/react-google-maps
+[FullStackReact]: https://gist.github.com/auser/1d55aa3897f15d17caf21dc39b85b663(
