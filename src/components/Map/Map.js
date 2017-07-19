@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 
 import GoogleMap from 'google-map-react'
 import Marker from 'components/Marker'
-import markerList from 'data/deduplicated_markers'
+import markerList from 'data/final_markers'
 
 export default class MapContainer extends Component {
   static propTypes = {
@@ -19,10 +19,11 @@ export default class MapContainer extends Component {
     apiKey: process.env.REACT_APP_GAPI_KEY,
     center: {
       lat: 19.39,
-      lng: -99.28
+      lng: -99.16
     },
     zoom: 10
   }
+
   renderMarkers = markers =>
     markers.map(marker =>
       <Marker
