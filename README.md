@@ -38,8 +38,9 @@ This is live at: [https://mxmaps.anthonyascencio.me](https://mxmaps.anthonyascen
 
 ## Screenshots
 <div id='screenshots'/>
-![Screenshot1](/public/screenshot1.png?raw=true)
-![Screenshot2](/public/screenshot2.png?raw=true)
+
+<img src="./public/screenshot_website.png" height="700px" width="auto"/>
+<img src="./public/screenshot_script.png" height="700px" width="auto"/>
 
 ## Walkthrough
 <div id='walkthrough'/>

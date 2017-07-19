@@ -1,6 +1,6 @@
 export default () => ({
   primary: solarized.base02,
-  accent: solarized.magenta,
+  accent: solarized.base02,
   opposite: '#EEE'
 })
 
