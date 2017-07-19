@@ -10,7 +10,7 @@
     "deploy": "yarn build && firebase deploy",
     "analyze": "yarn build && source-map-explorer build/static/js/main.*",
     "format": "prettier --single-quote --no-bracket-spacing --no-semi --write 'src/**/*.js'",
-    "parse": "node -r dotenv/config src/utils/parseMarkers.js dotenv_config_path=./.env.local"
+    "parse": "node -r dotenv/config src/parser/index.js dotenv_config_path=./.env.local"
   },
   "reactSnapshot": {
     "include": ["/"],
