@@ -7,9 +7,10 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import styled, {keyframes} from 'styled-components'
 
+// TODO: handle color configuration also via props
 GithubCorner.propTypes = {
   left: PropTypes.bool,
-  repository: PropTypes.string
+  repository: PropTypes.string.isRequired
 }
 
 GithubCorner.defaultProps = {
@@ -57,6 +58,7 @@ const Wrapper = styled.a`
   position: absolute;
   top: 0;
   right: ${props => (props.left ? 'auto' : '0')};
+  z-index: 1;
 `
 
 const OctoArm = styled.path`
@@ -74,5 +76,4 @@ const OctoArm = styled.path`
 `
 
 const Background = styled.svg`fill: white;`
-
 const OctoBody = styled.path`fill: ${props => props.theme.accent};`

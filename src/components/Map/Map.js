@@ -4,6 +4,7 @@ import GoogleMapReact from 'google-map-react'
 
 export default class MapContainer extends Component {
   static defaultProps = {
+    apiKey: process.env.REACT_APP_GAPI_KEY,
     center: {
       lat: 19.39,
       lng: -99.28
@@ -27,6 +28,7 @@ export default class MapContainer extends Component {
       <GoogleMap
         defaultCenter={this.props.center}
         defaultZoom={this.props.zoom}
+        bootstrapURLKeys={{key: this.props.apiKey}}
       >
         {this.renderMarkers}
         <Marker
@@ -42,7 +44,7 @@ export default class MapContainer extends Component {
 
 const GoogleMap = styled(GoogleMapReact)``
 const Marker = styled.div`
-  height: 25px;
-  width: 25px;
+  height: 20px;
+  width: 20px;
   background-color: magenta;
 `
