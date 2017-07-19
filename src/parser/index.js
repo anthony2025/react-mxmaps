@@ -16,9 +16,9 @@ const justFoundNames = []
 
 // TRIM_STEPS is how many characters to trim the marker in each step, choosing
 // too low a value might make the results slightly more reliable, but will eat
-// away your API use quota. Start first pass at around 20, and keep lowering
-// each pass by around 5 until 1. This process can be automated, but its nice to
-// have the extra step to control your use quota.
+// away your API use quota. Start first pass at around 20 and keep lowering each
+// pass by around 5 until you get to 1. This process can be automated, but its
+// nice to have this extra step to control your use quota.
 const TRIM_STEPS = 1
 const MAX_CHARACTERS_PER_LINE = 200
 const MAX_PASSES = Math.floor(MAX_CHARACTERS_PER_LINE / TRIM_STEPS)

@@ -38,7 +38,8 @@ This is live at: [https://mxmaps.anthonyascencio.me](https://mxmaps.anthonyascen
 
 ## Screenshots
 <div id='screenshots'/>
-
+![Screenshot1](/public/screenshot1.png?raw=true)
+![Screenshot2](/public/screenshot2.png?raw=true)
 
 ## Walkthrough
 <div id='walkthrough'/>
@@ -76,12 +77,13 @@ Noooot so fast, first we need their coordinates... Welcome to a magical side adv
 ## Prerequisites
 <div id='prerequisites'/>
 
+Node 8.x must be installed globally for the parser script to run. For both the script and the website to work properly an environment variable ```REACT_APP_GAPI_KEY``` must be provided with a valid Google Maps API key. It took a few thousand requests to parse the ~250 addresses, and a free account limits you to 1000 requests a day. You can either enable billing or run it in batches...
+
 This project currently uses [create-react-app], this gives us absolute import paths, environment variables, and an already optimized webpack config.
 
 - `$ yarn install` installs all the necessary dependencies.
-- `$ yarn parse` runs a node script to geocode our dataset.
 - `$ yarn start` will run the app in a development server.
-- `$ yarn test` will run our tests in Jest while in watch mode.
+- `$ yarn parse` runs the node script to geocode our dataset.
 
 ## License
 <div id='license'/>
