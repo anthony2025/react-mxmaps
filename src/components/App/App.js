@@ -1,8 +1,8 @@
 import React from 'react'
 import styled from 'styled-components'
 
-import Map from 'components/Map'
 import GithubCorner from 'components/GithubCorner'
+import Map from 'components/Map'
 
 export default function App(props) {
   return (

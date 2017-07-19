@@ -1,8 +1,20 @@
 import React, {Component} from 'react'
-import styled from 'styled-components'
-import GoogleMapReact from 'google-map-react'
+import PropTypes from 'prop-types'
+
+import GoogleMap from 'google-map-react'
+import Marker from 'components/Marker'
+import markerList from 'data/deduplicated_markers'
 
 export default class MapContainer extends Component {
+  static propTypes = {
+    apiKey: PropTypes.string.isRequired,
+    center: PropTypes.shape({
+      lat: PropTypes.number.isRequired,
+      lng: PropTypes.number.isRequired
+    }).isRequired,
+    zoom: PropTypes.number.isRequired
+  }
+
   static defaultProps = {
     apiKey: process.env.REACT_APP_GAPI_KEY,
     center: {
@@ -11,8 +23,6 @@ export default class MapContainer extends Component {
     },
     zoom: 10
   }
-
-  // TODO still working on server side parsing
   renderMarkers = markers =>
     markers.map(marker =>
       <Marker
@@ -30,21 +40,8 @@ export default class MapContainer extends Component {
         defaultZoom={this.props.zoom}
         bootstrapURLKeys={{key: this.props.apiKey}}
       >
-        {this.renderMarkers}
-        <Marker
-          lat={this.props.center.lat}
-          lng={this.props.center.lng}
-          text="placeholder"
-          key="placeholder"
-        />
+        {this.renderMarkers(markerList)}
       </GoogleMap>
     )
   }
 }
-
-const GoogleMap = styled(GoogleMapReact)``
-const Marker = styled.div`
-  height: 20px;
-  width: 20px;
-  background-color: magenta;
-`

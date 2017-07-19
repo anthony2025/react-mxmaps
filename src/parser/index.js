@@ -37,7 +37,7 @@ function trimMarkerAddress(marker, howManyChars) {
 }
 
 function saveRecord(coordinates, name) {
-  // Final paranoid check for errors
+  // Final paranoid check
   if (!name || !coordinates || !coordinates.lat || !coordinates.lng) {
     console.log('error, invalid marker trying to be saved', name, coordinates)
   }
