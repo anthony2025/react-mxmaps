@@ -74,18 +74,12 @@ This is exactly all we need for these user stories, but if we wanted more advanc
 
 Not so fast, first we need their coordinates: Welcome to a magical side quest in geocoding...
 
-:steam_locomotive::train::train::train:
-
 ### Third step: geocoding the markers
 <div id='third'/>
 
-We need to geocode our addresses to be able to place them on the map. That means convert each address into exact coordinates {latitude, longitude}.
+Because we are dealing with a fair amount of markers (~250), our best choice is to do this beforehand in the server, and persist the results for the client to just consume. I wrote a nodejs script to achieve this, using Maps [node library][maps node].
 
-Because we are dealing with a fair amount of markers (~250), our best choice is to do this beforehand in the server, and cache or persist the results. I wrote a nodejs script to achieve this, using Maps [node library][maps node].
-
-The addresses proved impossible to reliable geocode directly by [Google Geocode][geocode] service. They seem to have been quite lazily typed, probably by an intern shackled in a basement. Even manual queries in the Maps website returned more errors than results.
-
-Because of this I was forced to take some extreme steps to obtain less than ideal, but at least useable data:
+I was unable to reliable geocode most of the addresses provided by just using [Google Geocode][geocode] service. Because of this I was forced to take some extreme steps to obtain less than ideal, but useable data:
 
 1. Addresses are passed first to [Place Autocomplete][autocomplete] service. This service takes an ambiguous address, and tries to predict an unambiguous placeId identifying a precise location. It takes into account businesses, points of interest, and some typos.
 2. If [Place Autocomplete][autocomplete] was succesful, we send the placeId to [Place Details][details] service ([Geocode][geocode] service does not accept placeId's in the node library), which between its results always returns an unambiguous location object {lat, lng}.
@@ -104,11 +98,11 @@ But with over a hundred markers to play with we can leave Node land and go back 
 ### Fourth step: rendering the markers
 <div id='fourth'/>
 
-Up until here the whole project moved painfully slowly. It took hours to iron out some of the implementation details of the api's, and new problems kept appearing like layers on an onion.
+Up until here the whole project moved worryingly slowly. It took hours to iron out some of the implementation details on the server.
 
 This step took around 30 minutes. 15 to select the right svg icon, 10 to add the github fork corner, 5 to map over our beautiful list of geocoded markers and render them all in ten lines of code.
 
-The duper awesome [google-map-react] lets us just render our own components as map markers, allowing us to stay in React land. Consideration was taken into not lifting state too much, leaving it in Map component, to allow for App component to handle layout and shared state (favorite markers).
+[google-map-react] lets us just render our own components as map markers, allowing us to stay in React land. Consideration was taken into not lifting state too much, leaving it in Map component, to allow for App component to handle layout and shared state (favorite markers).
 
 ### Fifth step: finishing the UI
 <div id='fifth'/>
@@ -119,7 +113,7 @@ This step is in progress, but it should be all smooth React sailing from here on
 <div id='prerequisites'/>
 
 An environment variable ```REACT_APP_GAPI_KEY``` must be provided with a valid Google Maps API key.
-It took a few thousand requests to parse the ~250 addresses, and a free account limits you to 1000 requests a day. You can either [enable billing][quota] or waste a life running it in batches.
+It took a couple thousand requests to parse the ~250 addresses, and a free account limits you to 1000 requests a day. You can either [enable billing][quota] or waste precious life running it in batches.
 
 Node 8.x must be installed globally for the parser script to run. This project currently uses [create-react-app], this gives us absolute import paths, environment variables, and an already optimized webpack config.
 
@@ -130,8 +124,7 @@ Node 8.x must be installed globally for the parser script to run. This project c
 ## License
 <div id='license'/>
 
-This project is dedicated to the public domain, with a CC0 license.
-The libraries used are property of their respective authors.
+The project is dedicated to the public domain, with a CC0 license. The libraries used are property of their respective authors.
 
 Google wants us to show their logo whenever their api's are used. Because we just used them all, here it is in all its glory.
 
