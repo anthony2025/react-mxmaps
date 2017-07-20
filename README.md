@@ -4,7 +4,7 @@
 
 [![forthebadge](http://forthebadge.com/images/badges/you-didnt-ask-for-this.svg)](http://forthebadge.com)
 
-This is a solution, demo and coming blog post to a coding challenge used to help evaluate candidates interested in joining the team at [Generation Mexico].
+This is a solution, and ongoing tale, to a coding challenge used to help evaluate candidates interested in joining the team at [Generation Mexico].
 
 The demo is live at: [https://mxmaps.anthonyascencio.me](https://mxmaps.anthonyascencio.me)
 
@@ -50,7 +50,7 @@ The demo is live at: [https://mxmaps.anthonyascencio.me](https://mxmaps.anthonya
 
 Google hasn't made it easy to load the [Maps API library][maps browser]. For web clients only a script tag is provided, with an optional callback. This gives us a few headaches:
 
-  - It forces us to expose a "google" global variable, a total no-no practice.
+  - It forces us to expose a "google" global variable.
   - To make sure this global variable will be available in our code, the script can be loaded in head, but this blocks html parsing until it finishes executing. Alternatively we could use its optional callback to call a global function of our own, but this escapes React flow.
 
 A variety of approaches (see [FullStackReact] in depth one) can be followed to load the script asynchronously, while making sure not to execute code before the global variable is available. All of these are too involved for a demo, but necessary on production.
@@ -81,9 +81,9 @@ Not so fast, first we need their coordinates: Welcome to a magical side quest in
 
 We need to geocode our addresses to be able to place them on the map. That means convert each address into exact coordinates {latitude, longitude}.
 
-Because we are dealing with a fair amount of markers (~250), our best choice is to do this beforehand in the server, and cache or persist the results. I wrote a nodejs script to achieve this, plus Maps [node library][maps node].
+Because we are dealing with a fair amount of markers (~250), our best choice is to do this beforehand in the server, and cache or persist the results. I wrote a nodejs script to achieve this, using Maps [node library][maps node].
 
-The addresses proved impossible to reliable geocode directly by [Google Geocode][geocode] service. They seem to have been quite lazily typed, probably by some poor intern shackled in a basement. Even manual queries in the Maps website returned more errors than results.
+The addresses proved impossible to reliable geocode directly by [Google Geocode][geocode] service. They seem to have been quite lazily typed, probably by an intern shackled in a basement. Even manual queries in the Maps website returned more errors than results.
 
 Because of this I was forced to take some extreme steps to obtain less than ideal, but at least useable data:
 
@@ -94,7 +94,7 @@ This is the approach google recommends for [automated systems processing ambiguo
 
 3. Each address is run multiple times through the services, each time trimming more of it from the end. This has the effect of making the address more general, increasing our chances of finding a match.
 
-This is a rather crude method, and at some point completely unprecise method, but it allowed me to geocode 41% of the markers. In a real application, similar but more sofisticated approaches can be used to increase both the accuracy, and the efficacy of our approach. Two possible examples:
+This is a rather crude method, and at some point completely unprecise, but it allowed me to geocode 41% of the markers. In a real application, similar but more sofisticated approaches can be used to increase both the accuracy, and the efficacy of our approach. Two possible examples:
 
 - [Place Autocomplete][autocomplete] service allows you to set strict or lax boundaries in which to request the predictions. In our case by setting these boundaries to Mexico City we would cut a lot of the current noise and inacuraccy we are getting.
 - We can parse the address to make our trimming more intelligent. [Query Autocomplete][query] service can helps us with this, by giving us substrings and matched terms of an address query.
@@ -119,7 +119,7 @@ This step is in progress, but it should be all smooth React sailing from here on
 <div id='prerequisites'/>
 
 An environment variable ```REACT_APP_GAPI_KEY``` must be provided with a valid Google Maps API key.
-It took a few thousand requests to parse the ~250 addresses, and a free account limits you to 1000 requests a day. You can either [enable billing][quota] or waste a life running it in batches...
+It took a few thousand requests to parse the ~250 addresses, and a free account limits you to 1000 requests a day. You can either [enable billing][quota] or waste a life running it in batches.
 
 Node 8.x must be installed globally for the parser script to run. This project currently uses [create-react-app], this gives us absolute import paths, environment variables, and an already optimized webpack config.
 
