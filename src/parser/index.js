@@ -6,6 +6,8 @@ const {appendLineToFile, readFileSync} = require('./fileSystem')
 
 // path.join is already handled in fileSystem
 const RAW_MARKERS_FILENAME = '../data/raw_markers.json'
+// REMEMBER: make sure to correct syntax here between passes
+// This could be automated, but it takes 7 keystrokes, I counted
 const PARSED_MARKERS_FILENAME = '../data/parsed_markers.json'
 
 // We are going to keep trimming the addresses of our markers, which makes them
