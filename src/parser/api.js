@@ -1,9 +1,7 @@
 // We are going to pass our markers through the Places Autocomplete API to try
 // and get an unambiguos placeId result, and only then geocode the address with
 // Places Details API. This multi step processes gives us the best chance to
-// succesfully find a match for or ambiguous or loosely typed addreses
-// TODO:rewrite this functions with Promises so we can use async/await
-// REMEMBER: always break early! do not waste precious quota in empty requests
+// succesfully find a match for ambiguous or loosely typed addreses
 
 const googleMapsClient = require('@google/maps').createClient({
   key: process.env.REACT_APP_GAPI_KEY

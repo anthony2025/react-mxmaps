@@ -79,17 +79,17 @@ This is the approach google recommends for [automated systems processing ambiguo
 
 3. Each address is run multiple times through the services, each time trimming more of it from the end. This has the effect of making the address more general, increasing our chances of finding a match.
 
-This is a rather crude method, and at some point completely unprecise, but it allowed me to geocode ~45% of the markers. In a real application, similar but more sofisticated approaches can be used to increase both the accuracy, and the efficacy of our approach. Two possible examples:
+This is a rather crude and unprecise method, but it allowed me to geocode ~98% of the markers. In a real application, similar but more sofisticated approaches can be used to increase both the accuracy, and the efficacy of our predictions. Two possible examples:
 
 - [x] [Place Autocomplete][autocomplete] service allows you to set strict or lax boundaries in which to request the predictions. In our case by setting these boundaries to Mexico City we would cut a lot of the current noise and inacuraccy we are getting. (Included in last commit)
 - [ ] We can parse the address to make our trimming more intelligent. [Query Autocomplete][query] service can helps us with this, by giving us substrings and matched terms of an address query.
 
-But with over a hundred markers to play with we can leave Node land and go back to playing with React.
+Now with a couple hundred markers to play with we can leave Node land and go back to playing with React.
 
 ### Fourth step: rendering the markers
 <div id='fourth'/>
 
-Up until here the whole project moved worryingly slowly. It took hours to iron out some of the implementation details on the server. But this step took around 30 minutes. 15 to select the right svg icon, 10 to add the github fork corner, 5 to map over our beautiful list of geocoded markers and render them all in ten lines of code.
+Up until here the whole project moved very slowly. It took hours to iron out some of the implementation details on the server. But this step took just 30 minutes. 15 to select the right svg icon, 10 to add the github fork corner, 5 to map over our beautiful list of geocoded markers and render them all in ten simple lines of code.
 
 [google-map-react] lets us render our own components as map markers, allowing us to stay in React land. Consideration was taken into not lifting state too much, leaving it in <Map />, to allow for <App /> to handle layout and shared state (favorite markers).
 

@@ -491,5 +491,731 @@
     "lat": 19.4098202,
     "lng": -99.25207119999999
   },
-  {"text": "KAYCHEE 18-UN-Atizapan", "lat": 19.4898523, "lng": -99.2483067}
+  {"text": "KAYCHEE 18-UN-Atizapan", "lat": 19.4898523, "lng": -99.2483067},
+  {
+    "text": "KAYCHEE 158-Plaza América",
+    "lat": 19.4201409,
+    "lng": -98.90973439999999
+  },
+  {"text": "KAYCHEE 234-UN-Ajusco", "lat": 19.3850289, "lng": -99.1944048},
+  {"text": "KAYCHEE 235-UN-Universidad", "lat": 19.3819609, "lng": -99.1572186},
+  {
+    "text": "KAYCHEE 241-UN-Anfora",
+    "lat": 19.4359912,
+    "lng": -99.11085399999999
+  },
+  {"text": "KAYCHEE 141-Copilco", "lat": 19.3354096, "lng": -99.1652774},
+  {
+    "text": "KAYCHEE 237-UN-Tenayuca",
+    "lat": 19.41365399999999,
+    "lng": -99.14384659999999
+  },
+  {
+    "text": "KAYCHEE 167-Lago de Gpe",
+    "lat": 19.6131641,
+    "lng": -99.25272050000001
+  },
+  {"text": "KAYCHEE 130-Cd. Labor", "lat": 19.601296, "lng": -98.9750826},
+  {"text": "KAYCHEE 161-Bellavista", "lat": 19.3099012, "lng": -98.8652319},
+  {"text": "KAYCHEE 667-Viveros", "lat": 19.3863623, "lng": -99.0852845},
+  {
+    "text": "KAYCHEE 670-Tezontle",
+    "lat": 19.3831803,
+    "lng": -99.06364959999999
+  },
+  {
+    "text": "KAYCHEE 107-UN-Ojo de Agua",
+    "lat": 19.3494204,
+    "lng": -99.03914089999999
+  },
+  {
+    "text": "KAYCHEE 39-UN-Ecatepec *Palomas",
+    "lat": 19.4421391,
+    "lng": -99.11553479999999
+  },
+  {
+    "text": "KAYCHEE 239-UN-Eduardo Molina",
+    "lat": 19.4969942,
+    "lng": -99.0898637
+  },
+  {
+    "text": "KAYCHEE 91-UN-Tecamac",
+    "lat": 19.3161046,
+    "lng": -99.32827669999999
+  },
+  {
+    "text": "La Tienda Especiál 2525-Río Hondo",
+    "lat": 19.4384719,
+    "lng": -99.2491572
+  },
+  {
+    "text": "La Tienda Especiál 1161-Valle De Chalco",
+    "lat": 19.423284,
+    "lng": -99.16418089999999
+  },
+  {
+    "text": "La Tienda Especiál 1634-Cuautzingo",
+    "lat": 19.4083178,
+    "lng": -99.10852609999999
+  },
+  {
+    "text": "La Tienda Especiál 2736-Chimalhuacan Peñon",
+    "lat": 19.42688739999999,
+    "lng": -98.96524540000001
+  },
+  {
+    "text": "La Tienda Especiál 1233-Tecalco",
+    "lat": 19.2992735,
+    "lng": -99.1965649
+  },
+  {
+    "text": "La Tienda Especiál 1870-Tepotzotlan",
+    "lat": 19.4759013,
+    "lng": -99.2341435
+  },
+  {
+    "text": "La Tienda Especiál 1428-San Mateo Atenco",
+    "lat": 19.5090497,
+    "lng": -99.1861304
+  },
+  {
+    "text": "La Tienda Especiál 2240-Santa Cruz",
+    "lat": 19.5480017,
+    "lng": -99.17136839999999
+  },
+  {
+    "text": "La Tienda Especiál 1150-Huehuetoca",
+    "lat": 19.4255597,
+    "lng": -99.29119469999999
+  },
+  {
+    "text": "La Tienda Especiál 3020-Xalostoc",
+    "lat": 19.5519901,
+    "lng": -99.07664799999999
+  },
+  {
+    "text": "La Tienda Especiál 2737- Etzatlan",
+    "lat": 19.42023859999999,
+    "lng": -99.1644106
+  },
+  {
+    "text": "La Tienda Especiál 3026-Gobernadora",
+    "lat": 19.5600791,
+    "lng": -99.0276803
+  },
+  {
+    "text": "La Tienda Especiál 3043-Zinacantepec",
+    "lat": 19.472938,
+    "lng": -99.2265991
+  },
+  {
+    "text": "La Tienda Especiál 2873-Dimas",
+    "lat": 19.5677885,
+    "lng": -99.20064769999999
+  },
+  {
+    "text": "La Tienda Especiál 2767-Doctores",
+    "lat": 19.5074363,
+    "lng": -99.1516213
+  },
+  {
+    "text": "La Tienda Especiál 3065-Bosques del Valle",
+    "lat": 19.3694163,
+    "lng": -99.1361089
+  },
+  {
+    "text": "La Tienda Especiál 2871-Viento Nuevo",
+    "lat": 19.5220052,
+    "lng": -99.04190679999999
+  },
+  {
+    "text": "La Tienda Especiál 3167-Santa Inés",
+    "lat": 19.3161046,
+    "lng": -99.32827669999999
+  },
+  {
+    "text": "La Tienda Especiál 3214-Chinampa",
+    "lat": 19.6867208,
+    "lng": -98.9899341
+  },
+  {
+    "text": "La Tienda Especiál 3213-La Presa",
+    "lat": 19.2700818,
+    "lng": -98.9934993
+  },
+  {
+    "text": "La Tienda Especiál 3098-Guadalupana",
+    "lat": 19.2736107,
+    "lng": -99.232693
+  },
+  {
+    "text": "La Tienda Especiál 3074-Villas De La Hacienda",
+    "lat": 19.3811462,
+    "lng": -99.2546383
+  },
+  {
+    "text": "La Tienda Especiál 3141-San Pablo Tultitlán",
+    "lat": 19.6212568,
+    "lng": -99.17744619999999
+  },
+  {
+    "text": "Red Barn Stores 1107-IXTAPALUCA ",
+    "lat": 19.3161046,
+    "lng": -99.32827669999999
+  },
+  {
+    "text": "La Tienda Especiál 3725-Toluca Pilares",
+    "lat": 19.5600791,
+    "lng": -99.0276803
+  },
+  {
+    "text": "La Tienda Especiál 3753-Plaza Aragón",
+    "lat": 19.41365399999999,
+    "lng": -99.14384659999999
+  },
+  {
+    "text": "La Tienda Especiál 3668-Real De Costitlan",
+    "lat": 19.4104375,
+    "lng": -98.8949999
+  },
+  {
+    "text": "La Tienda Especiál 3752-Vallejo",
+    "lat": 19.4358147,
+    "lng": -99.1006362
+  },
+  {
+    "text": "La Tienda Especiál 3296-Villas de Ayotla",
+    "lat": 19.6411508,
+    "lng": -98.9907077
+  },
+  {
+    "text": "Red Barn Stores 2219-JOROBAS",
+    "lat": 19.437314,
+    "lng": -99.1617596
+  },
+  {
+    "text": "La Tienda Especiál 3755-Tacubaya",
+    "lat": 19.4049916,
+    "lng": -99.1883469
+  },
+  {
+    "text": "SuperStore 3825-SAN  MATEO",
+    "lat": 19.3495808,
+    "lng": -99.18863979999999
+  },
+  {
+    "text": "La Tienda Especiál 3751-Insurgentes Sur",
+    "lat": 19.6237901,
+    "lng": -99.0695492
+  },
+  {
+    "text": "La Tienda Especiál 3759-San Rafael",
+    "lat": 19.4408065,
+    "lng": -99.1587754
+  },
+  {
+    "text": "La Tienda Especiál 3757-San Juan de Aragón ",
+    "lat": 19.4131114,
+    "lng": -99.1351073
+  },
+  {
+    "text": "La Tienda Especiál 3760-Lomas Estrella",
+    "lat": 19.32471929999999,
+    "lng": -99.09862849999999
+  },
+  {
+    "text": "La Tienda Especiál 3756-Tlalnepantla",
+    "lat": 19.6383487,
+    "lng": -99.22625190000001
+  },
+  {
+    "text": "La Tienda Especiál 3762-Chimalhuacán",
+    "lat": 19.3906606,
+    "lng": -98.9829381
+  },
+  {
+    "text": "La Tienda Especiál 3761-Tulyehualco",
+    "lat": 19.32471929999999,
+    "lng": -99.09862849999999
+  },
+  {
+    "text": "La Tienda Especiál 3763-Mariano Escobedo",
+    "lat": 19.3603455,
+    "lng": -99.0861606
+  },
+  {
+    "text": "La Tienda Especiál 3764-Iztapalapa",
+    "lat": 19.3557723,
+    "lng": -99.10284349999999
+  },
+  {
+    "text": "La Tienda Especiál 3765-Ecatepec",
+    "lat": 19.6218393,
+    "lng": -99.0724049
+  },
+  {
+    "text": "La Tienda Especiál 3768-Villa Coapa",
+    "lat": 19.306156,
+    "lng": -99.1863262
+  },
+  {
+    "text": "La Tienda Especiál 3766-La Viga ",
+    "lat": 19.2940277,
+    "lng": -99.1571419
+  },
+  {
+    "text": "La Tienda Especiál 3770-Pantitlán",
+    "lat": 19.3710531,
+    "lng": -99.0145592
+  },
+  {
+    "text": "La Tienda Especiál 3771-Plaza Churubusco",
+    "lat": 19.3649642,
+    "lng": -99.1270444
+  },
+  {
+    "text": "La Tienda Especiál 3774-Ferrocarril Hidalgo",
+    "lat": 19.4721408,
+    "lng": -99.1151615
+  },
+  {
+    "text": "La Tienda Especiál 3772-Plaza Atizapan",
+    "lat": 19.5824872,
+    "lng": -99.26618409999999
+  },
+  {
+    "text": "Red Barn Stores 5765-LAS AMERICAS ",
+    "lat": 19.521502,
+    "lng": -99.074117
+  },
+  {
+    "text": "La Tienda Especiál 3782-Centenario",
+    "lat": 19.36640079999999,
+    "lng": -99.2046969
+  },
+  {
+    "text": "La Tienda Especiál 3775-La Aurora",
+    "lat": 19.3850289,
+    "lng": -99.1944048
+  },
+  {
+    "text": "La Tienda Especiál 3777-Valle de Aragón ",
+    "lat": 19.4912256,
+    "lng": -99.0549527
+  },
+  {
+    "text": "La Tienda Especiál 3776-Sor Juana",
+    "lat": 19.4953153,
+    "lng": -99.1195032
+  },
+  {
+    "text": "La Tienda Especiál 3783-Santa Clara ",
+    "lat": 19.3811462,
+    "lng": -99.2546383
+  },
+  {
+    "text": "Red Barn Stores 3503-ECATEPEC CENTRO",
+    "lat": 19.3564289,
+    "lng": -99.18978880000002
+  },
+  {
+    "text": "La Tienda Especiál 3778-Xochimilco",
+    "lat": 19.2675148,
+    "lng": -99.11727049999999
+  },
+  {
+    "text": "La Tienda Especiál 3786-Santa Fe",
+    "lat": 19.3959839,
+    "lng": -99.1935549
+  },
+  {
+    "text": "La Tienda Especiál 3792-San Juanico",
+    "lat": 19.3161046,
+    "lng": -99.32827669999999
+  },
+  {
+    "text": "La Tienda Especiál 3797-Cabeza de Juárez",
+    "lat": 19.41365399999999,
+    "lng": -99.14384659999999
+  },
+  {
+    "text": "La Tienda Especiál 3795-Texcoco",
+    "lat": 19.42023859999999,
+    "lng": -99.1644106
+  },
+  {
+    "text": "La Tienda Especiál 3791-Fuentes del Valle",
+    "lat": 19.6035071,
+    "lng": -99.18830059999999
+  },
+  {
+    "text": "La Tienda Especiál 3787-Cuautitlán",
+    "lat": 19.416839,
+    "lng": -99.2187045
+  },
+  {
+    "text": "La Tienda Especiál 3805-Santa Lucía",
+    "lat": 19.3718495,
+    "lng": -99.21238699999999
+  },
+  {
+    "text": "La Tienda Especiál 3798-Santa Cecilia",
+    "lat": 19.3092754,
+    "lng": -99.10948139999999
+  },
+  {
+    "text": "La Tienda Especiál 3803-Observatorio",
+    "lat": 19.4038668,
+    "lng": -99.1907772
+  },
+  {
+    "text": "La Tienda Especiál 3799-Ángeles Iztapalapa",
+    "lat": 19.3562204,
+    "lng": -99.1002267
+  },
+  {
+    "text": "La Tienda Especiál 3808-Bolivar",
+    "lat": 19.4221858,
+    "lng": -99.1400476
+  },
+  {
+    "text": "La Tienda Especiál 3860-Zaragoza",
+    "lat": 19.4326077,
+    "lng": -99.133208
+  },
+  {
+    "text": "La Tienda Especiál 3883-Melchor Ocampo",
+    "lat": 19.6741967,
+    "lng": -99.1716191
+  },
+  {
+    "text": "La Tienda Especiál 3892-Av Central",
+    "lat": 19.4832695,
+    "lng": -99.0502712
+  },
+  {
+    "text": "La Tienda Especiál 3888-Vía Morelos",
+    "lat": 19.5215626,
+    "lng": -99.08397169999999
+  },
+  {
+    "text": "La Tienda Especiál 3884-Chalco 2000",
+    "lat": 19.5215626,
+    "lng": -99.08397169999999
+  },
+  {
+    "text": "La Tienda Especiál 3897-La Virgen",
+    "lat": 19.3756719,
+    "lng": -99.1224108
+  },
+  {
+    "text": "La Tienda Especiál 3871-Plaza Cuautitlán",
+    "lat": 19.2579167,
+    "lng": -99.16191099999999
+  },
+  {
+    "text": "La Tienda Especiál 3916-Iztapalapa Norte",
+    "lat": 19.3562204,
+    "lng": -99.1002267
+  },
+  {
+    "text": "Red Barn Stores 1724-LOS REYES ZUMPANGO",
+    "lat": 19.3850289,
+    "lng": -99.1944048
+  },
+  {
+    "text": "La Tienda Especiál 3910-Palomas",
+    "lat": 19.3434226,
+    "lng": -99.1359301
+  },
+  {
+    "text": "Red Barn Stores 3176-OJO DE AGUA TECAMAC",
+    "lat": 19.3730818,
+    "lng": -99.18149149999999
+  },
+  {
+    "text": "La Tienda Especiál 4029-Av. Nacional",
+    "lat": 19.4326077,
+    "lng": -99.133208
+  },
+  {
+    "text": "La Tienda Especiál 3924-Cofradías",
+    "lat": 19.6723019,
+    "lng": -99.08807469999999
+  },
+  {
+    "text": "La Tienda Especiál 4017-Toluca Aztecas",
+    "lat": 19.3131415,
+    "lng": -99.2252163
+  },
+  {
+    "text": "La Tienda Especiál 4128-Arca De Noé",
+    "lat": 19.4215904,
+    "lng": -98.93074299999999
+  },
+  {
+    "text": "La Tienda Especiál 4541-Ixtapaluca",
+    "lat": 19.5128114,
+    "lng": -98.88256829999999
+  },
+  {
+    "text": "La Tienda Especiál 5730-Chicoloapan",
+    "lat": 19.3161046,
+    "lng": -99.32827669999999
+  },
+  {
+    "text": "La Tienda Especiál 4558-Tecamac",
+    "lat": 19.5128114,
+    "lng": -98.88256829999999
+  },
+  {
+    "text": "La Tienda Especiál 5768-Cd Labor",
+    "lat": 19.5904598,
+    "lng": -99.18994479999999
+  },
+  {
+    "text": "La Tienda Especiál 4198-El Tenayo",
+    "lat": 19.2988456,
+    "lng": -99.5302516
+  },
+  {
+    "text": "La Tienda Especiál 5733-Plaza Chimalhuacán",
+    "lat": 19.39736689999999,
+    "lng": -99.03961849999999
+  },
+  {"text": "SuperStore 1053-ACOXPA", "lat": 19.2940277, "lng": -99.1571419},
+  {
+    "text": "SuperStore 3836-COPILCO",
+    "lat": 19.4421391,
+    "lng": -99.11553479999999
+  },
+  {"text": "SuperStore 3831-COYOACAN", "lat": 19.3445656, "lng": -99.1562098},
+  {
+    "text": "SuperStore 3397-MAYORAZGO",
+    "lat": 19.481026,
+    "lng": -99.04290499999999
+  },
+  {
+    "text": "SuperStore 2766-FELIX CUEVAS",
+    "lat": 19.3730589,
+    "lng": -99.175924
+  },
+  {
+    "text": "SuperStore 3843-DIVISIÓN DEL NORTE",
+    "lat": 19.3546487,
+    "lng": -99.1523316
+  },
+  {"text": "SuperStore 3819-DEL VALLE", "lat": 19.3784614, "lng": -99.1630876},
+  {"text": "SuperStore 3813-CHURUBUSCO", "lat": 19.3471119, "lng": -99.1328077},
+  {
+    "text": "SuperStore 1492-OLIPLAZA",
+    "lat": 19.41365399999999,
+    "lng": -99.14384659999999
+  },
+  {
+    "text": "SuperStore 2829-CALZADA DE LOS LEONES",
+    "lat": 19.2940277,
+    "lng": -99.1571419
+  },
+  {
+    "text": "SuperStore 3842-RIO CHURUBUSCO",
+    "lat": 19.301744,
+    "lng": -99.222107
+  },
+  {
+    "text": "SuperStore 3223-DEL VALLE NORTE",
+    "lat": 19.3111168,
+    "lng": -99.0420534
+  },
+  {
+    "text": "SuperStore 3479-POPOCATEPETL",
+    "lat": 19.3609695,
+    "lng": -99.14906979999999
+  },
+  {
+    "text": "SuperStore 3199-PASEOS DE TAXQUEÑA",
+    "lat": 19.3410949,
+    "lng": -99.13751289999999
+  },
+  {"text": "SuperStore 3818-REVOLUCIÓN", "lat": 19.3764604, "lng": -99.1876885},
+  {
+    "text": "SuperStore 2830-J.DE LA MONTAÑA",
+    "lat": 19.2804794,
+    "lng": -99.2143474
+  },
+  {"text": "SuperStore 3827-PERIFERICO", "lat": 19.4682375, "lng": -99.1235522},
+  {
+    "text": "SuperStore 3832-HOMERO",
+    "lat": 19.4359288,
+    "lng": -99.20516049999999
+  },
+  {
+    "text": "SuperStore 3840-PATIO PEDREGAL",
+    "lat": 19.302606,
+    "lng": -99.190252
+  },
+  {
+    "text": "SuperStore 3896-FTES. PEDREGAL",
+    "lat": 19.4168937,
+    "lng": -99.0641301
+  },
+  {"text": "SuperStore 3833-JARDINES", "lat": 19.4223724, "lng": -99.2333153},
+  {
+    "text": "SuperStore 3481-GRAND POLANCO",
+    "lat": 19.4401781,
+    "lng": -99.20300519999999
+  },
+  {
+    "text": "SuperStore 3834-INDIANA",
+    "lat": 19.4770587,
+    "lng": -99.13833319999999
+  },
+  {"text": "SuperStore 3820-MICHOACÁN", "lat": 19.446689, "lng": -99.1138823},
+  {"text": "SuperStore 3811-HORACIO", "lat": 19.4338368, "lng": -99.1927999},
+  {
+    "text": "SuperStore 3824-ORADORES",
+    "lat": 19.41365399999999,
+    "lng": -99.14384659999999
+  },
+  {
+    "text": "La Tienda Especiál 5770-Zumpango",
+    "lat": 19.6741967,
+    "lng": -99.1716191
+  },
+  {
+    "text": "SuperStore 3812-NARVARTE",
+    "lat": 19.39403979999999,
+    "lng": -99.1573578
+  },
+  {"text": "SuperStore 3629-ECHEGARAY", "lat": 19.4940062, "lng": -99.2271923},
+  {
+    "text": "SuperStore 3835-LOMAS ANAHUAC",
+    "lat": 19.4098202,
+    "lng": -99.25207119999999
+  },
+  {
+    "text": "SuperStore 3480-WTC DAKOTA",
+    "lat": 19.3478667,
+    "lng": -99.14603369999999
+  },
+  {
+    "text": "Red Barn Stores 3016-MACRO PLAZA HEROES TEC.",
+    "lat": 19.6199642,
+    "lng": -99.03618379999999
+  },
+  {
+    "text": "SuperStore 3025-PARQUES POLANCO",
+    "lat": 19.6308952,
+    "lng": -99.24807279999999
+  },
+  {
+    "text": "SuperStore 3828-LOS MORALES",
+    "lat": 19.4339518,
+    "lng": -99.1929297
+  },
+  {
+    "text": "Red Barn Stores 4154-PERINORTE",
+    "lat": 19.2579167,
+    "lng": -99.16191099999999
+  },
+  {
+    "text": "SuperStore 1408-VALLE DORADO",
+    "lat": 19.4556411,
+    "lng": -99.22002529999999
+  },
+  {"text": "SuperStore 3821-LINDAVISTA", "lat": 19.4899737, "lng": -99.1366219},
+  {"text": "SuperStore 3814-BARRILACO", "lat": 19.4182705, "lng": -99.2242742},
+  {
+    "text": "La Tienda Especiál 5813-La Paz",
+    "lat": 19.4071346,
+    "lng": -98.89290969999999
+  },
+  {
+    "text": "SuperStore 3829-BOSQUES DE LAS LOMAS",
+    "lat": 19.4218546,
+    "lng": -99.1871364
+  },
+  {"text": "SuperStore 3841-LILAS", "lat": 19.3906811, "lng": -99.2482024},
+  {
+    "text": "KAYCHEE 240-UN-Neza 1 *Estadio",
+    "lat": 19.41978,
+    "lng": -99.02933999999999
+  },
+  {
+    "text": "KAYCHEE 260-UN-Neza 2 *Impulsora",
+    "lat": 19.4827501,
+    "lng": -99.0367279
+  },
+  {
+    "text": "La Tienda Especiál 1400-Joyas de Coacalco",
+    "lat": 19.434366,
+    "lng": -99.1876616
+  },
+  {
+    "text": "La Tienda Especiál 3750-Autopista Querétaro",
+    "lat": 19.3612466,
+    "lng": -99.2675149
+  },
+  {
+    "text": "La Tienda Especiál 3784-1° de Mayo",
+    "lat": 19.4958803,
+    "lng": -99.0800553
+  },
+  {
+    "text": "La Tienda Especiál 3874-Cantil",
+    "lat": 19.3228206,
+    "lng": -99.15996559999999
+  },
+  {
+    "text": "La Tienda Especiál 3891-Los Reyes",
+    "lat": 19.3677239,
+    "lng": -99.271181
+  },
+  {
+    "text": "SuperStore 3839-GIRASOLES",
+    "lat": 19.31045139999999,
+    "lng": -99.1252586
+  },
+  {
+    "text": "SuperStore 3177-INS. LA JOYA",
+    "lat": 19.306156,
+    "lng": -99.1863262
+  },
+  {
+    "text": "SuperStore 3816-PEDREGAL",
+    "lat": 19.4421391,
+    "lng": -99.11553479999999
+  },
+  {
+    "text": "SuperStore 3837-LUIS CABRERA",
+    "lat": 19.3210721,
+    "lng": -99.222422
+  },
+  {
+    "text": "SuperStore 3915-AV. TOLUCA",
+    "lat": 19.33754859999999,
+    "lng": -99.223771
+  },
+  {"text": "SuperStore 3817-GEORGIA", "lat": 19.3888923, "lng": -99.1775184},
+  {"text": "SuperStore 3809-PACHUCA", "lat": 19.6825652, "lng": -98.9834068},
+  {
+    "text": "SuperStore 3810-SENA",
+    "lat": 19.4364471,
+    "lng": -99.25150699999999
+  },
+  {
+    "text": "Red Barn Stores 4191-LAGO DE GUADALUPE ",
+    "lat": 19.556276,
+    "lng": -99.1863023
+  },
+  {
+    "text": "SuperStore 3881-SANTA FE",
+    "lat": 19.3661632,
+    "lng": -99.23958239999999
+  },
+  {
+    "text": "SuperStore 3830-VIRREYES",
+    "lat": 19.4611423,
+    "lng": -99.14165589999999
+  }
 ]
