@@ -13,8 +13,12 @@
     "parse": "node -r dotenv/config src/parser/index.js dotenv_config_path=./.env.local"
   },
   "reactSnapshot": {
-    "include": ["/"],
-    "exclude": ["/**"]
+    "include": [
+      "/"
+    ],
+    "exclude": [
+      "/**"
+    ]
   },
   "repository": {
     "type": "git",
@@ -23,15 +27,15 @@
   "author": "Anthony Ascencio <anthony2025@gmail.com> (https://github.com/anthony2025)",
   "homepage": "https://mxmaps.anthonyascencio.me",
   "devDependencies": {
+    "@google/maps": "^0.4.3",
+    "dotenv": "^4.0.0",
     "firebase-tools": "^3.9.1",
     "prettier": "^1.5.3",
-    "source-map-explorer": "^1.4.0",
     "raven-js": "^3.17.0",
     "react-scripts": "1.0.10",
-    "@google/maps": "^0.4.2",
-    "dotenv": "^4.0.0",
     "react-snapshot": "^1.1.0",
-    "serve": "^6.0.2"
+    "serve": "^6.0.3",
+    "source-map-explorer": "^1.4.0"
   },
   "dependencies": {
     "google-map-react": "^0.24.0",

@@ -9,6 +9,18 @@ const googleMapsClient = require('@google/maps').createClient({
   key: process.env.REACT_APP_GAPI_KEY
 })
 
+// We set here the boundaries of our requests, this really improves our search
+// efficacy and accuracy
+const SEARCH_OPTIONS = {
+  location: {
+    lat: 19.39,
+    lng: -99.16
+  },
+  components: {country: 'mx'},
+  radius: 40000, // in meters
+  strictbounds: true // change to false if you don't care about accuracy
+}
+
 // Takes an ambiguous address, returns a coordinates object {lat, lng}
 function addressToCoordinates(address, cb) {
   if (!address) return cb(null)
@@ -24,13 +36,16 @@ function addressToCoordinates(address, cb) {
 // Takes ambiguous address, returns best prediction as a placeId
 function getPlaceId(address, cb) {
   if (!address) return cb(null)
-  googleMapsClient.placesAutoComplete({input: address}, (err, res) => {
-    if (err) return console.log('getPlaceId failed: ' + res.status)
-    if (res.json.status !== 'OK') return cb(null)
-    // console.log('getPlaceId returns: ', placeId)
-    let placeId = res.json.predictions[0].place_id
-    cb(placeId)
-  })
+  googleMapsClient.placesAutoComplete(
+    Object.assign({input: address}, SEARCH_OPTIONS),
+    (err, res) => {
+      if (err) return console.log('getPlaceId failed: ' + res.status)
+      if (res.json.status !== 'OK') return cb(null)
+      // console.log('getPlaceId returns: ', placeId)
+      let placeId = res.json.predictions[0].place_id
+      cb(placeId)
+    }
+  )
 }
 
 // Takes placeId, returns coordinates object {lat, lng}

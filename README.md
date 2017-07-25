@@ -4,13 +4,12 @@
 
 [![forthebadge](http://forthebadge.com/images/badges/you-didnt-ask-for-this.svg)](http://forthebadge.com)
 
-This is a solution, and ongoing tale, to a coding challenge used to help evaluate candidates interested in joining the team at [Generation Mexico].
+This is a solution, and in depth explanation, to a coding challenge solved using React, Node, and Google Maps API's. We are given a list of ~250 very ambiguous addresses, and three user stories.
 
 The demo is live at: [https://mxmaps.anthonyascencio.me](https://mxmaps.anthonyascencio.me)
 
 ## Table of Contents
 - [User Stories](#stories)
-- [Rules](#rules)
 - [Screenshots](#screenshots)
 - [Walkthrough](#walkthrough)
   - [Loading the API](#first)
@@ -27,14 +26,6 @@ The demo is live at: [https://mxmaps.anthonyascencio.me](https://mxmaps.anthonya
 - [x] As a student, I want to see a map of Mexico City.
 - [x] As a student, I want to see a map that has all the stores represented as markers/pins on the map.
 - [ ] As a student, I want to be able to click on a store and add it to a list of 'My Favorite Stores'
-
-## Rules
-<div id='rules'/>
-
-- It must use React and Google Maps, but no Redux.
-- Any other libraries and approaches are fair game.
-- It should focus on the user over the technology used.
-- It should include some documentation, screenshots, and tests.
 
 ## Screenshots
 <div id='screenshots'/>
@@ -79,7 +70,7 @@ Not so fast, first we need their coordinates: Welcome to a magical side quest in
 
 Because we are dealing with a fair amount of markers (~250), our best choice is to do this beforehand in the server, and persist the results for the client to just consume. I wrote a nodejs script to achieve this, using Maps [node library][maps node].
 
-I was unable to reliable geocode most of the addresses provided by just using [Google Geocode][geocode] service. Because of this I was forced to take some extreme steps to obtain less than ideal, but useable data:
+The list of addresses provided lack a consistent format and have been very lazily typed, probably by some intern shackled to a chair. They cannot be reliably geocoded by just [Google Geocode][geocode] service, and even manual queries on maps.google.com will usually fail. Because of this I was forced to take some extreme steps to obtain less than ideal, but useable data:
 
 1. Addresses are passed first to [Place Autocomplete][autocomplete] service. This service takes an ambiguous address, and tries to predict an unambiguous placeId identifying a precise location. It takes into account businesses, points of interest, and some typos.
 2. If [Place Autocomplete][autocomplete] was succesful, we send the placeId to [Place Details][details] service ([Geocode][geocode] service does not accept placeId's in the node library), which between its results always returns an unambiguous location object {lat, lng}.
@@ -88,21 +79,19 @@ This is the approach google recommends for [automated systems processing ambiguo
 
 3. Each address is run multiple times through the services, each time trimming more of it from the end. This has the effect of making the address more general, increasing our chances of finding a match.
 
-This is a rather crude method, and at some point completely unprecise, but it allowed me to geocode 41% of the markers. In a real application, similar but more sofisticated approaches can be used to increase both the accuracy, and the efficacy of our approach. Two possible examples:
+This is a rather crude method, and at some point completely unprecise, but it allowed me to geocode ~45% of the markers. In a real application, similar but more sofisticated approaches can be used to increase both the accuracy, and the efficacy of our approach. Two possible examples:
 
-- [Place Autocomplete][autocomplete] service allows you to set strict or lax boundaries in which to request the predictions. In our case by setting these boundaries to Mexico City we would cut a lot of the current noise and inacuraccy we are getting.
-- We can parse the address to make our trimming more intelligent. [Query Autocomplete][query] service can helps us with this, by giving us substrings and matched terms of an address query.
+- [x] [Place Autocomplete][autocomplete] service allows you to set strict or lax boundaries in which to request the predictions. In our case by setting these boundaries to Mexico City we would cut a lot of the current noise and inacuraccy we are getting. (Included in last commit)
+- [ ] We can parse the address to make our trimming more intelligent. [Query Autocomplete][query] service can helps us with this, by giving us substrings and matched terms of an address query.
 
 But with over a hundred markers to play with we can leave Node land and go back to playing with React.
 
 ### Fourth step: rendering the markers
 <div id='fourth'/>
 
-Up until here the whole project moved worryingly slowly. It took hours to iron out some of the implementation details on the server.
+Up until here the whole project moved worryingly slowly. It took hours to iron out some of the implementation details on the server. But this step took around 30 minutes. 15 to select the right svg icon, 10 to add the github fork corner, 5 to map over our beautiful list of geocoded markers and render them all in ten lines of code.
 
-This step took around 30 minutes. 15 to select the right svg icon, 10 to add the github fork corner, 5 to map over our beautiful list of geocoded markers and render them all in ten lines of code.
-
-[google-map-react] lets us just render our own components as map markers, allowing us to stay in React land. Consideration was taken into not lifting state too much, leaving it in Map component, to allow for App component to handle layout and shared state (favorite markers).
+[google-map-react] lets us render our own components as map markers, allowing us to stay in React land. Consideration was taken into not lifting state too much, leaving it in <Map />, to allow for <App /> to handle layout and shared state (favorite markers).
 
 ### Fifth step: finishing the UI
 <div id='fifth'/>
@@ -113,7 +102,7 @@ This step is in progress, but it should be all smooth React sailing from here on
 <div id='prerequisites'/>
 
 An environment variable ```REACT_APP_GAPI_KEY``` must be provided with a valid Google Maps API key.
-It took a couple thousand requests to parse the ~250 addresses, and a free account limits you to 1000 requests a day. You can either [enable billing][quota] or waste precious life running it in batches.
+It took a few thousand requests to parse the ~250 addresses, and a free account limits you to 1000 requests a day. You can either [enable billing][quota] or waste a few lifetimes running it in batches.
 
 Node 8.x must be installed globally for the parser script to run. This project currently uses [create-react-app], this gives us absolute import paths, environment variables, and an already optimized webpack config.
 
@@ -136,7 +125,6 @@ Google wants us to show their logo whenever their api's are used. Because we jus
 [google-map-react]: https://github.com/istarkov/google-map-react
 [react-google-maps]: https://github.com/tomchentw/react-google-maps
 [FullStackReact]: https://gist.github.com/auser/1d55aa3897f15d17caf21dc39b85b663(
-[Generation Mexico]: https://www.generationinitiative.org/mexico/
 [create-react-app]: https://github.com/facebookincubator/create-react-app
 [best practices]: https://developers.google.com/maps/documentation/geocoding/best-practices
 [autocomplete]: https://developers.google.com/places/web-service/autocomplete

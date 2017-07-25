@@ -2,7 +2,7 @@
 // array of ambiguous markers {name, address} into unambiguous markers {text,
 // lat, lng} that we can render in a map.
 const {addressToCoordinates} = require('./apiCalls')
-const {appendLineToFile, readFileSync} = require('./fileSystem')
+const {appendLineToFileSync, readFileSync} = require('./fileSystem')
 
 // path.join is already handled in fileSystem
 const RAW_MARKERS_FILENAME = '../data/raw_markers.json'
@@ -16,11 +16,9 @@ const rawMarkers = readFileSync(RAW_MARKERS_FILENAME)
 const pastFoundNames = readFileSync(PARSED_MARKERS_FILENAME).map(o => o.text)
 const justFoundNames = []
 
-// TRIM_STEPS is how many characters to trim the marker in each step, choosing
-// too low a value might make the results slightly more reliable, but will eat
-// away your API use quota. Start first pass at around 20 and keep lowering each
-// pass by around 5 until you get to 1. This process can be automated, but its
-// nice to have this extra step to control your use quota.
+// TRIM_STEPS is how many characters to remove from the marker in each
+// iteration, you can use a larger value to prevent it eating away your API use
+// quota, but the results will suffer.
 const TRIM_STEPS = 1
 const MAX_CHARACTERS_PER_LINE = 200
 const MAX_PASSES = Math.floor(MAX_CHARACTERS_PER_LINE / TRIM_STEPS)
@@ -48,12 +46,12 @@ function saveRecord(coordinates, name) {
     lat: coordinates.lat,
     lng: coordinates.lng
   }
-  appendLineToFile(PARSED_MARKERS_FILENAME, newMarker)
+  appendLineToFileSync(PARSED_MARKERS_FILENAME, newMarker)
   justFoundNames.push(name)
 }
 
 rawMarkers.map(marker => {
-  // First check, if the marker has already been found, skip
+  // First check, if the marker has already been found skip
   // Can't really have enough early breaks to save API quota
   if (!isNewRecord(marker.name)) return
   // Cloning the marker to avoid problems working with references
@@ -66,6 +64,7 @@ rawMarkers.map(marker => {
     currentMarker = trimMarkerAddress(currentMarker, TRIM_STEPS)
     // If we trimmed too much, abort the loop
     if (currentMarker.address.length <= 0) break
+
     // Only then ask the API to identify our marker
     addressToCoordinates(currentMarker.address, coordinates => {
       console.log('Api call for: ', marker.name)

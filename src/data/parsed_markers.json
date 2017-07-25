@@ -1,23 +1,8 @@
 [
   {
-    "text": "Red Barn Stores 3858-CUAJIMALPA",
-    "lat": 38.7277137,
-    "lng": -77.1471677
-  },
-  {
-    "text": "Red Barn Stores 2466-CUITLAHUAC",
-    "lat": 38.85589339999999,
-    "lng": -77.14106269999999
-  },
-  {
     "text": "Red Barn Stores 2344-LOMAS",
     "lat": 19.4556411,
     "lng": -99.22002529999999
-  },
-  {
-    "text": "Red Barn Stores 1770-PATIO SANTA FE",
-    "lat": 38.6405454,
-    "lng": -77.2948597
   },
   {
     "text": "Red Barn Stores 3862-AZCAPOTZALCO",
@@ -28,21 +13,6 @@
     "text": "Red Barn Stores 2347-TLAHUAC",
     "lat": 19.3002893,
     "lng": -99.04609260000001
-  },
-  {
-    "text": "Red Barn Stores 3857-VILLA COAPA",
-    "lat": 38.8048355,
-    "lng": -77.0469214
-  },
-  {
-    "text": "Red Barn Stores 2345-TEPEYAC",
-    "lat": 14.6299272,
-    "lng": -90.56471409999999
-  },
-  {
-    "text": "Red Barn Stores 2345-TEPEYAC",
-    "lat": -17.4351322,
-    "lng": -66.15648949999999
   },
   {
     "text": "Red Barn Stores 3851-AEROPUERTO",
@@ -70,19 +40,9 @@
     "lng": -99.12108699999999
   },
   {
-    "text": "Red Barn Stores 3794-ACUEDUCTO DE GUADALUPE",
-    "lat": 38.81645,
-    "lng": -77.142293
-  },
-  {
     "text": "Red Barn Stores 3851-AEROPUERTO",
     "lat": 19.3912843,
     "lng": -99.0458182
-  },
-  {
-    "text": "Red Barn Stores 2689-FELIX CUEVAS",
-    "lat": 30.0528017,
-    "lng": -90.6046665
   },
   {
     "text": "Red Barn Stores 3872-BALBUENA",
@@ -90,19 +50,9 @@
     "lng": -99.10677419999999
   },
   {
-    "text": "Red Barn Stores 3872-BALBUENA",
-    "lat": 38.7774635,
-    "lng": -77.1718309
-  },
-  {
     "text": "Red Barn Stores 3877-TORRES  LINDAVISTA",
     "lat": 19.5056493,
     "lng": -99.1493818
-  },
-  {
-    "text": "Red Barn Stores 4547-EDUARDO MOLINA",
-    "lat": 38.8425728,
-    "lng": -77.1455501
   },
   {
     "text": "Red Barn Stores 3877-TORRES  LINDAVISTA",
@@ -110,19 +60,9 @@
     "lng": -99.1414245
   },
   {
-    "text": "Red Barn Stores 2689-FELIX CUEVAS",
-    "lat": -34.4727723,
-    "lng": -57.85233759999999
-  },
-  {
     "text": "Red Barn Stores 4547-EDUARDO MOLINA",
     "lat": 19.4833901,
     "lng": -99.1099065
-  },
-  {
-    "text": "Red Barn Stores 3846-BUENAVISTA",
-    "lat": 38.8831126,
-    "lng": -77.11559989999999
   },
   {
     "text": "Red Barn Stores 3845-UNIVERSIDAD",
@@ -130,29 +70,9 @@
     "lng": -99.1572186
   },
   {
-    "text": "Red Barn Stores 3848-TAXQUEÑA",
-    "lat": 38.90345099999999,
-    "lng": -77.0407226
-  },
-  {
     "text": "Red Barn Stores 2430-COPILCO",
     "lat": 19.3370787,
     "lng": -99.1832436
-  },
-  {
-    "text": "Red Barn Stores 3863-PERIFERICO SUR",
-    "lat": 40.7848582,
-    "lng": -73.9696519
-  },
-  {
-    "text": "Red Barn Stores 3876-LAS AGUILAS",
-    "lat": 36.4697917,
-    "lng": -121.7228264
-  },
-  {
-    "text": "Red Barn Stores 1580-EL ROSARIO",
-    "lat": 10.4440104,
-    "lng": -66.8918764
   },
   {
     "text": "Red Barn Stores 2033-PLAZA ORIENTE",
@@ -160,66 +80,14 @@
     "lng": -99.081885
   },
   {
-    "text": "Red Barn Stores 1460-CUEMANCO",
-    "lat": 56.130366,
-    "lng": -106.346771
-  },
-  {
-    "text": "Red Barn Stores 2382-INTERLOMAS",
-    "lat": 38.8337933,
-    "lng": -77.10482230000001
-  },
-  {
     "text": "Red Barn Stores 2343-TOLUCA",
     "lat": 19.2938117,
     "lng": -99.6751255
   },
   {
-    "text": "Red Barn Stores 3504-AV. JESUS DEL MONTE",
-    "lat": 38.7808308,
-    "lng": -77.18463659999999
-  },
-  {"text": "Red Barn Stores 3263-PILARES", "lat": 38.81645, "lng": -77.142293},
-  {
-    "text": "Red Barn Stores 3790-METEPEC",
-    "lat": 20.9868317,
-    "lng": -87.2027969
-  },
-  {"text": "Red Barn Stores 5702-SANTIN ", "lat": 45.4618872, "lng": 9.2563044},
-  {
-    "text": "Red Barn Stores 5791-ZINACANTEPEC",
-    "lat": 21.1508641,
-    "lng": -101.6846523
-  },
-  {
-    "text": "Red Barn Stores 1423-SANTA ELENA",
-    "lat": 56.130366,
-    "lng": -106.346771
-  },
-  {
-    "text": "Red Barn Stores 1044-SAN MARCOS IZCALLI",
-    "lat": 40.7783499,
-    "lng": -98.7235066
-  },
-  {
-    "text": "Red Barn Stores 5825-ALFREDO DEL MAZO",
-    "lat": 21.89784,
-    "lng": -102.298506
-  },
-  {
     "text": "Red Barn Stores 1834-PLAZA DEL LAGO",
     "lat": 19.6140516,
     "lng": -99.1444372
-  },
-  {
-    "text": "Red Barn Stores 2643-NICOLAS ROMERO",
-    "lat": 38.7808308,
-    "lng": -77.18463659999999
-  },
-  {
-    "text": "La Tienda Especiál 1001-San Buenaventura",
-    "lat": 38.8016954,
-    "lng": -77.1611653
   },
   {
     "text": "Red Barn Stores 3900-COACALCO",
@@ -232,24 +100,9 @@
     "lng": -99.1081334
   },
   {
-    "text": "La Tienda Especiál 1002-Teotihuacán",
-    "lat": -23.5250582,
-    "lng": -46.6255414
-  },
-  {
-    "text": "Red Barn Stores 2041-TOLTECAS",
-    "lat": 14.5498164,
-    "lng": 121.0038454
-  },
-  {
     "text": "SuperStore 3849-ESMERALDA",
     "lat": 19.5512065,
     "lng": -99.28909329999999
-  },
-  {
-    "text": "Red Barn Stores 3847-SATELITE",
-    "lat": 38.8425728,
-    "lng": -77.1455501
   },
   {
     "text": "Red Barn Stores 1032-LOMAS VERDES",
@@ -267,39 +120,9 @@
     "lng": -99.1843676
   },
   {
-    "text": "Red Barn Stores 3854-PIRULES",
-    "lat": 38.8337933,
-    "lng": -77.10482230000001
-  },
-  {
-    "text": "Red Barn Stores 5855-LAS ALAMEDAS",
-    "lat": 33.880456,
-    "lng": -117.7840527
-  },
-  {
-    "text": "Red Barn Stores 1169-MULTIPLAZA ARBOLEDAS",
-    "lat": 38.8176424,
-    "lng": -77.1399356
-  },
-  {
-    "text": "Red Barn Stores 1489-HIPERPLAZA TEXCOCO",
-    "lat": 21.983594,
-    "lng": -103.5938868
-  },
-  {
-    "text": "Red Barn Stores 1683-VICENTE GUERRERO",
-    "lat": 18.62784259999999,
-    "lng": -68.3683714
-  },
-  {
     "text": "Red Barn Stores 1202-HORIZONTE",
     "lat": 19.4583292,
     "lng": -99.2143455
-  },
-  {
-    "text": "Red Barn Stores 3005-PLAZA ARAGON",
-    "lat": 40.7848582,
-    "lng": -73.9696519
   },
   {
     "text": "Red Barn Stores 4109-PUERTA TEXCOCO",
@@ -342,11 +165,6 @@
     "lng": -98.2040248
   },
   {
-    "text": "La Tienda Especiál 1110-Plaza Ecatepec",
-    "lat": 38.81645,
-    "lng": -77.142293
-  },
-  {
     "text": "SuperStore 3838-LOMAS VERDES",
     "lat": 19.5121305,
     "lng": -99.2631614
@@ -356,33 +174,9 @@
     "lat": 19.4223724,
     "lng": -99.2333153
   },
-  {
-    "text": "SuperStore 3826-VIVEROS",
-    "lat": 38.8980992,
-    "lng": -76.99533730000002
-  },
-  {
-    "text": "Red Barn Stores 5469-RÍO DE LOS REMEDIOS",
-    "lat": 38.81645,
-    "lng": -77.142293
-  },
   {"text": "KAYCHEE 106-Toreo", "lat": 19.4556411, "lng": -99.22002529999999},
   {"text": "KAYCHEE 98-Santa Fe", "lat": 21.0106491, "lng": -89.6137112},
-  {"text": "KAYCHEE 117-UN-San Esteban", "lat": 26.1628241, "lng": -98.296776},
-  {
-    "text": "KAYCHEE 232-UN-Polanco",
-    "lat": 18.2211683,
-    "lng": -67.15147639999999
-  },
-  {"text": "KAYCHEE 129-Un-Buen Tono", "lat": 32.6319082, "lng": -117.0349834},
   {"text": "KAYCHEE 147-Cuajimalpa", "lat": 22.1467289, "lng": -100.9221176},
-  {"text": "KAYCHEE 231-UN-Interlomas", "lat": 30.1053843, "lng": -95.4357429},
-  {"text": "KAYCHEE 18-UN-Atizapan", "lat": 29.8459838, "lng": -97.8424503},
-  {
-    "text": "KAYCHEE 655-Tecamachalco",
-    "lat": 38.7560538,
-    "lng": -77.15564169999999
-  },
   {
     "text": "KAYCHEE 111-UN-Nicolas Romero",
     "lat": 19.5824872,
@@ -393,7 +187,6 @@
     "lat": 19.3682316,
     "lng": -99.2600015
   },
-  {"text": "KAYCHEE 130-Cd. Labor", "lat": 38.81645, "lng": -77.142293},
   {
     "text": "Red Barn Stores 3852-PLATEROS",
     "lat": 19.4056916,
@@ -401,31 +194,17 @@
   },
   {"text": "KAYCHEE 146-Coacalco", "lat": 19.6278913, "lng": -99.3077885},
   {
-    "text": "KAYCHEE 161-Bellavista",
-    "lat": 39.005492,
-    "lng": -77.22824810000002
-  },
-  {
-    "text": "KAYCHEE 167-Lago de Gpe",
-    "lat": 39.0067768,
-    "lng": -76.77913649999999
-  },
-  {
     "text": "KAYCHEE 236-UN-Mundo E *Satelite",
     "lat": 19.4556411,
     "lng": -99.22002529999999
   },
-  {"text": "KAYCHEE 237-UN-Tenayuca", "lat": 38.8048355, "lng": -77.0469214},
-  {"text": "KAYCHEE 667-Viveros", "lat": 11.6886854, "lng": -84.4579815},
   {"text": "KAYCHEE 100-UN-Iztapalapa", "lat": 20.5724211, "lng": -101.2109818},
   {"text": "KAYCHEE 121-Churubusco", "lat": 19.3595506, "lng": -99.1306027},
-  {"text": "KAYCHEE 141-Copilco", "lat": 18.46435, "lng": -69.9993575},
   {
     "text": "KAYCHEE 140-Tulyehualco",
     "lat": 19.4953013,
     "lng": -99.19838089999999
   },
-  {"text": "KAYCHEE 158-Plaza América", "lat": 38.8987819, "lng": -77.0536195},
   {
     "text": "KAYCHEE 154-Xochimilco",
     "lat": 19.3543147,
@@ -437,56 +216,16 @@
     "lat": 19.3082374,
     "lng": -99.13756730000001
   },
-  {"text": "KAYCHEE 234-UN-Ajusco", "lat": 38.8405853, "lng": -77.0870073},
-  {"text": "KAYCHEE 235-UN-Universidad", "lat": 38.81645, "lng": -77.142293},
-  {
-    "text": "KAYCHEE 241-UN-Anfora",
-    "lat": 42.753851,
-    "lng": -87.86287999999999
-  },
-  {"text": "KAYCHEE 670-Tezontle", "lat": 38.81645, "lng": -77.142293},
-  {
-    "text": "KAYCHEE 39-UN-Ecatepec *Palomas",
-    "lat": 38.81645,
-    "lng": -77.142293
-  },
-  {"text": "KAYCHEE 91-UN-Tecamac", "lat": 38.8013029, "lng": -77.1254659},
-  {"text": "KAYCHEE 107-UN-Ojo de Agua", "lat": 38.81645, "lng": -77.142293},
   {"text": "KAYCHEE 116-UN-Tepozan", "lat": 19.474166, "lng": -99.1240759},
-  {
-    "text": "KAYCHEE 240-UN-Neza 1 *Estadio",
-    "lat": 11.4407353,
-    "lng": -85.8325401
-  },
   {
     "text": "KAYCHEE 157-Tecamac II (Heroes)",
     "lat": 19.6343215,
     "lng": -99.02832319999999
   },
   {
-    "text": "KAYCHEE 239-UN-Eduardo Molina",
-    "lat": 38.9145644,
-    "lng": -77.23090549999999
-  },
-  {
-    "text": "KAYCHEE 260-UN-Neza 2 *Impulsora",
-    "lat": 38.81645,
-    "lng": -77.142293
-  },
-  {
     "text": "La Tienda Especiál 1142-Totoltepec",
     "lat": 17.5459692,
     "lng": -99.4890789
-  },
-  {
-    "text": "La Tienda Especiál 1150-Huehuetoca",
-    "lat": 38.9493799,
-    "lng": -77.3386828
-  },
-  {
-    "text": "La Tienda Especiál 1161-Valle De Chalco",
-    "lat": 38.8064809,
-    "lng": -77.1227071
   },
   {
     "text": "La Tienda Especiál 1177-Santiago Tianguistenco",
@@ -504,18 +243,253 @@
     "lng": -99.2518803
   },
   {
-    "text": "La Tienda Especiál 1233-Tecalco",
-    "lat": 38.0170934,
-    "lng": -122.2724677
-  },
-  {
     "text": "La Tienda Especiál 1236-Atlacomulco",
     "lat": 19.5403321,
     "lng": -99.2170737
   },
   {
-    "text": "La Tienda Especiál 1400-Joyas de Coacalco",
-    "lat": 32.3502486,
-    "lng": -117.0413761
-  }
+    "text": "La Tienda Especiál 1496-El Molinito",
+    "lat": 19.4966768,
+    "lng": -99.2587523
+  },
+  {
+    "text": "La Tienda Especiál 1558-La Palma",
+    "lat": 19.6560311,
+    "lng": -99.1716999
+  },
+  {
+    "text": "La Tienda Especiál 1559-San Mateo Nopala",
+    "lat": 19.5026887,
+    "lng": -99.2618535
+  },
+  {
+    "text": "La Tienda Especiál 1828-Acolman",
+    "lat": 19.8878546,
+    "lng": -97.43313789999999
+  },
+  {
+    "text": "La Tienda Especiál 1829-Almoloya",
+    "lat": 19.5287707,
+    "lng": -99.23204419999999
+  },
+  {
+    "text": "La Tienda Especiál 1830-Arbolada los Sauces",
+    "lat": 19.8077153,
+    "lng": -99.04911539999999
+  },
+  {
+    "text": "La Tienda Especiál 1899-San Juan de la Labor",
+    "lat": 19.7676278,
+    "lng": -98.9912367
+  },
+  {
+    "text": "La Tienda Especiál 1930-El Oro",
+    "lat": 19.592054,
+    "lng": -99.1789336
+  },
+  {
+    "text": "La Tienda Especiál 2054-Terranova",
+    "lat": 19.601296,
+    "lng": -98.9750826
+  },
+  {
+    "text": "La Tienda Especiál 2072-Portal Chalco",
+    "lat": 19.3799778,
+    "lng": -99.202156
+  },
+  {
+    "text": "La Tienda Especiál 2141-Xonacatlán",
+    "lat": 19.4694066,
+    "lng": -99.23388
+  },
+  {
+    "text": "La Tienda Especiál 2221-Alpinismo",
+    "lat": 19.4374733,
+    "lng": -99.1263542
+  },
+  {
+    "text": "Red Barn Stores 3858-CUAJIMALPA",
+    "lat": 19.3554821,
+    "lng": -99.2970144
+  },
+  {
+    "text": "Red Barn Stores 1770-PATIO SANTA FE",
+    "lat": 19.3608448,
+    "lng": -99.2748021
+  },
+  {
+    "text": "Red Barn Stores 2466-CUITLAHUAC",
+    "lat": 19.4568599,
+    "lng": -99.17997679999999
+  },
+  {
+    "text": "Red Barn Stores 2345-TEPEYAC",
+    "lat": 19.4598614,
+    "lng": -99.1271043
+  },
+  {
+    "text": "Red Barn Stores 3794-ACUEDUCTO DE GUADALUPE",
+    "lat": 19.5286935,
+    "lng": -99.1560394
+  },
+  {
+    "text": "Red Barn Stores 3846-BUENAVISTA",
+    "lat": 19.4910443,
+    "lng": -99.12157669999999
+  },
+  {
+    "text": "Red Barn Stores 2689-FELIX CUEVAS",
+    "lat": 19.4600658,
+    "lng": -99.2239506
+  },
+  {
+    "text": "Red Barn Stores 3848-TAXQUEÑA",
+    "lat": 19.34309769999999,
+    "lng": -99.1526047
+  },
+  {
+    "text": "Red Barn Stores 3863-PERIFERICO SUR",
+    "lat": 19.3056403,
+    "lng": -99.18990450000001
+  },
+  {
+    "text": "Red Barn Stores 3876-LAS AGUILAS",
+    "lat": 19.38522,
+    "lng": -99.000115
+  },
+  {
+    "text": "Red Barn Stores 1580-EL ROSARIO",
+    "lat": 19.501666,
+    "lng": -99.20324099999999
+  },
+  {
+    "text": "Red Barn Stores 1460-CUEMANCO",
+    "lat": 19.2954816,
+    "lng": -99.10909579999999
+  },
+  {
+    "text": "Red Barn Stores 2382-INTERLOMAS",
+    "lat": 19.4004363,
+    "lng": -99.27450239999999
+  },
+  {
+    "text": "Red Barn Stores 3504-AV. JESUS DEL MONTE",
+    "lat": 19.4936415,
+    "lng": -99.2223039
+  },
+  {
+    "text": "Red Barn Stores 3263-PILARES",
+    "lat": 19.3817656,
+    "lng": -99.2357371
+  },
+  {
+    "text": "Red Barn Stores 3790-METEPEC",
+    "lat": 19.3915789,
+    "lng": -98.989408
+  },
+  {
+    "text": "Red Barn Stores 5702-SANTIN ",
+    "lat": 19.2777172,
+    "lng": -99.6848188
+  },
+  {
+    "text": "Red Barn Stores 5791-ZINACANTEPEC",
+    "lat": 19.3814276,
+    "lng": -99.1915854
+  },
+  {
+    "text": "Red Barn Stores 5825-ALFREDO DEL MAZO",
+    "lat": 19.289721,
+    "lng": -98.9406779
+  },
+  {
+    "text": "Red Barn Stores 1044-SAN MARCOS IZCALLI",
+    "lat": 19.6723523,
+    "lng": -99.20597699999999
+  },
+  {
+    "text": "Red Barn Stores 1423-SANTA ELENA",
+    "lat": 19.7006471,
+    "lng": -99.0833423
+  },
+  {
+    "text": "La Tienda Especiál 1001-San Buenaventura",
+    "lat": 19.30473199999999,
+    "lng": -98.861069
+  },
+  {
+    "text": "Red Barn Stores 2643-NICOLAS ROMERO",
+    "lat": 19.6900291,
+    "lng": -99.1678872
+  },
+  {
+    "text": "La Tienda Especiál 1002-Teotihuacán",
+    "lat": 19.6238515,
+    "lng": -98.9567405
+  },
+  {
+    "text": "Red Barn Stores 2041-TOLTECAS",
+    "lat": 19.4381104,
+    "lng": -99.1445018
+  },
+  {
+    "text": "Red Barn Stores 3847-SATELITE",
+    "lat": 19.3347721,
+    "lng": -99.2277249
+  },
+  {
+    "text": "Red Barn Stores 3854-PIRULES",
+    "lat": 19.5429767,
+    "lng": -99.2137219
+  },
+  {
+    "text": "Red Barn Stores 1169-MULTIPLAZA ARBOLEDAS",
+    "lat": 19.54428799999999,
+    "lng": -99.21194
+  },
+  {
+    "text": "Red Barn Stores 5855-LAS ALAMEDAS",
+    "lat": 19.5533692,
+    "lng": -99.248438
+  },
+  {
+    "text": "Red Barn Stores 1683-VICENTE GUERRERO",
+    "lat": 19.279372,
+    "lng": -98.8821777
+  },
+  {
+    "text": "Red Barn Stores 1489-HIPERPLAZA TEXCOCO",
+    "lat": 19.6711239,
+    "lng": -99.0075332
+  },
+  {
+    "text": "Red Barn Stores 3005-PLAZA ARAGON",
+    "lat": 19.481647,
+    "lng": -99.050103
+  },
+  {
+    "text": "SuperStore 3826-VIVEROS",
+    "lat": 19.5949806,
+    "lng": -99.03320579999999
+  },
+  {
+    "text": "La Tienda Especiál 1110-Plaza Ecatepec",
+    "lat": 19.5215626,
+    "lng": -99.08397169999999
+  },
+  {
+    "text": "Red Barn Stores 5469-RÍO DE LOS REMEDIOS",
+    "lat": 19.5193847,
+    "lng": -99.1226082
+  },
+  {"text": "KAYCHEE 117-UN-San Esteban", "lat": 19.4596372, "lng": -99.234022},
+  {"text": "KAYCHEE 129-Un-Buen Tono", "lat": 19.4808386, "lng": -99.1238664},
+  {"text": "KAYCHEE 231-UN-Interlomas", "lat": 19.4019555, "lng": -99.2719137},
+  {"text": "KAYCHEE 232-UN-Polanco", "lat": 19.4420509, "lng": -99.2138021},
+  {
+    "text": "KAYCHEE 655-Tecamachalco",
+    "lat": 19.4098202,
+    "lng": -99.25207119999999
+  },
+  {"text": "KAYCHEE 18-UN-Atizapan", "lat": 19.4898523, "lng": -99.2483067}
 ]

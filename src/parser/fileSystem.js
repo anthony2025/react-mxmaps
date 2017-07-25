@@ -6,13 +6,11 @@ const path = require('path')
 
 // TODO: improve this function to handle appending to JSON correctly
 // Now its just dumb pasting lines at the end, breaking syntax and requiring manual formatting
-function appendLineToFile(file, line) {
+function appendLineToFileSync(file, line) {
   const fileName = path.join(__dirname, file)
   const serializedLine = JSON.stringify(line)
-  fs.appendFile(fileName, serializedLine, err => {
-    if (err) return console.log('error in appendLineToFile: ', err)
-    console.log('Line appended succesfully!')
-  })
+  fs.appendFileSync(fileName, serializedLine)
+  console.log('Line appended')
 }
 
 function readFileAsync(file, cb) {
@@ -43,7 +41,7 @@ function deduplicateMarkersJsonFile(inFile, outFile) {
 }
 
 module.exports = {
-  appendLineToFile,
+  appendLineToFileSync,
   readFileAsync,
   readFileSync,
   deduplicateMarkersJsonFile
