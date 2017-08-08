@@ -4,7 +4,7 @@
 
 [![forthebadge](http://forthebadge.com/images/badges/you-didnt-ask-for-this.svg)](http://forthebadge.com)
 
-This is a solution, and in depth explanation, to a coding challenge solved using React, Node, and Google Maps API's. We are given a list of ~250 very ambiguous addresses, and three user stories.
+This is a solution, and in depth explanation, to a coding challenge solved using React, Node, and Google Maps API's. We are given a list of ~250 very ambiguous addresses to render in a map. What started as a simple React exercise turned into a complex problem of geocoding innacurate addresses.
 
 The demo is live at: [https://mxmaps.anthonyascencio.me](https://mxmaps.anthonyascencio.me)
 
@@ -16,7 +16,6 @@ The demo is live at: [https://mxmaps.anthonyascencio.me](https://mxmaps.anthonya
   - [Rendering the map](#second)
   - [Geocoding the markers](#third)
   - [Rendering the markers](#fourth)
-  - [Finishing the UI](#fifth)
 - [Prerequisites](#prerequisites)
 - [License](#license)
 
@@ -25,7 +24,6 @@ The demo is live at: [https://mxmaps.anthonyascencio.me](https://mxmaps.anthonya
 
 - [x] As a student, I want to see a map of Mexico City.
 - [x] As a student, I want to see a map that has all the stores represented as markers/pins on the map.
-- [ ] As a student, I want to be able to click on a store and add it to a list of 'My Favorite Stores'
 
 ## Screenshots
 <div id='screenshots'/>
@@ -93,10 +91,6 @@ Up until here the whole project moved very slowly. It took hours to iron out som
 
 [google-map-react] lets us render our own components as map markers, allowing us to stay in React land. Consideration was taken into not lifting state too much, leaving it in <Map />, to allow for <App /> to handle layout and shared state (favorite markers).
 
-### Fifth step: finishing the UI
-<div id='fifth'/>
-
-This step is in progress, but it should be all smooth React sailing from here on.
 
 ## Prerequisites
 <div id='prerequisites'/>
@@ -134,5 +128,3 @@ Google wants us to show their logo whenever their api's are used. Because we jus
 [quota]: https://developers.google.com/places/web-service/usage
 [geocode]: https://developers.google.com/maps/documentation/geocoding/start
 [maps browser]: https://developers.google.com/maps/documentation/javascript/tutorial
-
-[//]: # (I can't believe I'm almost done with this shit, god bless the queen, what a ride.)
