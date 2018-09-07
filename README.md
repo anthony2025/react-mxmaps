@@ -1,4 +1,4 @@
-# React MX Maps:
+# React MX Maps
 
 <img src="./public/logo.png" height="300px" width="auto"/>
 
