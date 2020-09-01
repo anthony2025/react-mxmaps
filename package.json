@@ -34,7 +34,7 @@
     "raven-js": "^3.17.0",
     "react-scripts": "1.0.10",
     "react-snapshot": "^1.1.0",
-    "serve": "^6.0.3",
+    "serve": "^7.1.3",
     "source-map-explorer": "^1.4.0"
   },
   "dependencies": {
